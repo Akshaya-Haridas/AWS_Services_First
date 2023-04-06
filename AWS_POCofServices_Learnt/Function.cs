@@ -16,7 +16,8 @@ public class Function
     /// <returns></returns>
     public async Task FunctionHandler(ILambdaContext context)
     {
-        var s = new Services();
-       await s.SendToSNSTopic(context);
+        //To send message to SNS topic when Lambda is triggered by apigateway
+        var service = new SNSServices();
+        await service.SendToSNSTopic(context);
     }
 }

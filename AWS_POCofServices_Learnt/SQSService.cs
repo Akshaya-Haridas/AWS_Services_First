@@ -18,7 +18,11 @@ namespace AWS_POCofServices_Learnt
             client= new AmazonSQSClient("AKIAUVNLRVBJFD4U5WOU", "VH944YZ+F57AbRlIrN+DicgwMnFqXV7917N7ux5+", Amazon.RegionEndpoint.USEast1);
             
         }
-
+        /// <summary>
+        /// To collect message from SQS queue and then send to S3 bucket
+        /// </summary>
+        /// <param name="context"></param>
+        /// <returns></returns>
         public async Task ReceiveMessage(ILambdaContext context)
         {
             int maxNumberOfMessages = 5;
@@ -34,8 +38,9 @@ namespace AWS_POCofServices_Learnt
             if (response != null)
             {
                 context.Logger.LogInformation($" This is response from SQS queue{JsonConvert.SerializeObject(response)}");
+              // To call method creating file inside s3 bucket and write message in it
                 S3Bucket s3 = new S3Bucket();
-                await s3.creates3file(response, context);
+                await s3.Creates3file(response, context);
             }
         }
     }

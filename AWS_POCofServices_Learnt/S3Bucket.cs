@@ -19,7 +19,7 @@ namespace AWS_POCofServices_Learnt
             client= new AmazonS3Client("AKIAUVNLRVBJFD4U5WOU", "VH944YZ+F57AbRlIrN+DicgwMnFqXV7917N7ux5+", Amazon.RegionEndpoint.USEast1);
         }
 
-        public async Task creates3file(ReceiveMessageResponse msg,ILambdaContext context)
+        public async Task Creates3file(ReceiveMessageResponse msg,ILambdaContext context)
         {
             foreach (var item in msg.Messages)
             {

@@ -12,12 +12,12 @@ using System.Threading.Tasks;
 
 namespace AWS_POCofServices_Learnt
 {
-    internal class Services
+    internal class SNSServices
     {
         private readonly AmazonSimpleNotificationServiceClient client; 
-        public Services()
+        public SNSServices()
         {
-            //Iam using my admin credentials not creating IAM users to assign any specific roles
+            
             client= new AmazonSimpleNotificationServiceClient("AKIAUVNLRVBJFD4U5WOU", "VH944YZ+F57AbRlIrN+DicgwMnFqXV7917N7ux5+", Amazon.RegionEndpoint.USEast1);
         }
         
