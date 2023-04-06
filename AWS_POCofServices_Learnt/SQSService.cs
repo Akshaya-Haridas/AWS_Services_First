@@ -15,7 +15,7 @@ namespace AWS_POCofServices_Learnt
         private readonly AmazonSQSClient client;
         public SQSService() 
         {
-            client= new AmazonSQSClient("AKIAUVNLRVBJFD4U5WOU", "VH944YZ+F57AbRlIrN+DicgwMnFqXV7917N7ux5+", Amazon.RegionEndpoint.USEast1);
+            client= new AmazonSQSClient("", "", Amazon.RegionEndpoint.USEast1);
             
         }
         /// <summary>

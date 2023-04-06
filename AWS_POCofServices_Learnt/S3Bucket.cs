@@ -16,7 +16,7 @@ namespace AWS_POCofServices_Learnt
         private readonly AmazonS3Client client;
         public S3Bucket()
         {
-            client= new AmazonS3Client("AKIAUVNLRVBJFD4U5WOU", "VH944YZ+F57AbRlIrN+DicgwMnFqXV7917N7ux5+", Amazon.RegionEndpoint.USEast1);
+            client= new AmazonS3Client("", "", Amazon.RegionEndpoint.USEast1);
         }
 
         public async Task Creates3file(ReceiveMessageResponse msg,ILambdaContext context)

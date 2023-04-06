@@ -18,7 +18,7 @@ namespace AWS_POCofServices_Learnt
         public SNSServices()
         {
             
-            client= new AmazonSimpleNotificationServiceClient("AKIAUVNLRVBJFD4U5WOU", "VH944YZ+F57AbRlIrN+DicgwMnFqXV7917N7ux5+", Amazon.RegionEndpoint.USEast1);
+            client= new AmazonSimpleNotificationServiceClient("", "", Amazon.RegionEndpoint.USEast1);
         }
         
         private class Input 
