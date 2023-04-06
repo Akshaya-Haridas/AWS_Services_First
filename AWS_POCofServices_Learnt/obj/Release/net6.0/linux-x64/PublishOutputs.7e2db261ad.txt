@@ -1,0 +1,11 @@
+D:\AWS-Learning\AWS_POCofServices_Learnt\bin\Release\net6.0\publish\AWS_POCofServices_Learnt.deps.json
+D:\AWS-Learning\AWS_POCofServices_Learnt\bin\Release\net6.0\publish\AWS_POCofServices_Learnt.runtimeconfig.json
+D:\AWS-Learning\AWS_POCofServices_Learnt\bin\Release\net6.0\publish\AWS_POCofServices_Learnt.pdb
+D:\AWS-Learning\AWS_POCofServices_Learnt\bin\Release\net6.0\publish\Amazon.Lambda.Core.dll
+D:\AWS-Learning\AWS_POCofServices_Learnt\bin\Release\net6.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+D:\AWS-Learning\AWS_POCofServices_Learnt\bin\Release\net6.0\publish\AWSSDK.Core.dll
+D:\AWS-Learning\AWS_POCofServices_Learnt\bin\Release\net6.0\publish\AWSSDK.S3.dll
+D:\AWS-Learning\AWS_POCofServices_Learnt\bin\Release\net6.0\publish\AWSSDK.SimpleNotificationService.dll
+D:\AWS-Learning\AWS_POCofServices_Learnt\bin\Release\net6.0\publish\AWSSDK.SQS.dll
+D:\AWS-Learning\AWS_POCofServices_Learnt\bin\Release\net6.0\publish\Newtonsoft.Json.dll
+D:\AWS-Learning\AWS_POCofServices_Learnt\bin\Release\net6.0\publish\AWS_POCofServices_Learnt.dll
